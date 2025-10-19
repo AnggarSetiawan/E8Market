@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-md: 50rem;
+  --breakpoint-lg: 60rem;
+  ----breakpoint-xl: 110rem;
+}
+
+@layer base {
+  *,
+  html,
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.slick-slide > div {
+  margin: 19px;
+}
+
+.title {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  text-shadow: 0px 3px 0px black;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+}
